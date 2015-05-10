@@ -1,3 +1,12 @@
+v1.4, 2015-05-10
+    * Mark all strings for translation.
+    * Italian translation and base templates.
+    * Include missing meta viewport tag for mobile display.
+    * Make sure the CSS has been compiled when packaging distribution.
+    * Use stdout.write in find parents commands, to avoid Unicode problems.
+
+Thanks to Guglielmo Celata and Matthew Somerville for their work on this release.
+
 v1.3.1, 2015-03-23
     * Make sure all country-specific templates use the compatibility template
       tag for "url".
